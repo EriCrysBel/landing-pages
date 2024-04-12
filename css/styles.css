@@ -11124,6 +11124,24 @@ header.masthead .masthead-heading {
 .nombre-aran{
   color: goldenrod;
 }
+@keyframes rebote {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#audio-control {
+  border-radius: 50%;
+  animation: rebote 1s infinite;
+}
+
+
 .timeline {
   position: relative;
   padding: 0;
