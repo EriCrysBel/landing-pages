@@ -10,6 +10,58 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .card {
+  width: 10rem;
+  height: 15rem;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+  border-radius: 0.5rem;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.flipped .card-front {
+  transform: rotateY(180deg);
+}
+
+.flipped .card-back {
+  transform: rotateY(360deg);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11313,4 +11365,53 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.audio-player-image {
+  cursor: pointer; 
+}
+.sobre-aran{
+  font-size: 15PX;
+}
+.container-preguntas {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #8A4A38;
+  width: 100%;
+}
+
+#playgame {
+  padding: 10px 20px;
+  background-color: #FFB22B;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#playgame:hover {
+  background-color: #0056b3;
+}
+
+#pregunta {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#respuestas {
+  display: flex;
+  justify-content: center;
+}
+
+.respuesta {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.respuesta:hover {
+  background-color: #e0e0e0;
 }
