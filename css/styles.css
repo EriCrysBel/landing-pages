@@ -11329,11 +11329,15 @@ header.masthead .masthead-heading {
   font-size: 20PX;
   background-color: #E2DCBB;
   padding: 0.5em;
+  margin-top: 0em;
 }
 .sobre-aran strong{
 background-color: #97E9BB;
 padding: 0.3em;
 text-decoration: underline;
+}
+.fotos img{
+  margin: 5em;
 }
 .mini-juego{
   margin: 70px;
@@ -11353,6 +11357,7 @@ text-decoration: underline;
   width: 100%;
   text-align: center;
   align-self: center;
+  margin-bottom: 0;
 }
 
 #playgame {
@@ -11393,4 +11398,13 @@ text-decoration: underline;
 #reglas-juego{
   margin-bottom:0!important;
   padding-bottom: 0!important;
+}
+
+.cmn-divfloat .fa-arrow-up {
+width: 100px;
+height: 50px;
+left: 50px;
+}
+.topi{
+text-align: center;
 }
