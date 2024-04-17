@@ -29,7 +29,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Página de Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">ICONO HOME</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Galería</a></li>
                         <li class="nav-item"><a class="nav-link" href="#sobre-aran">Sobre Aran Jones</a></li>
                         <li class="nav-item"><a class="nav-link" href="#juego">Juego de preguntas</a></li>
@@ -54,7 +54,130 @@
             </div>
         </header>
 
-        <!-- Aprende jugando -->
+
+        <!-- En qué consiste el juego-->
+        
+        <section class="page-section bg-light reglas-juego" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">En qué consiste el juego</h2>
+                    <h3 class="section-subheading text-muted fs-3">Cada aventura de Aran Jones se compone de un mapa del lugar a visitar, un set de pegatinas y una App web muy sencilla de usar donde se plantean retos para los más pequeños de la casa.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-2">
+                        <!-- item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Mapa y pegatinas</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2">
+                        <!--  item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">App web</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2">
+                        <!--  item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Juego</div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="mini-juego">
+
+                        <figure class="logotipo">
+                            <img src="assets/explorador.png" alt="logotipo" >
+                        </figure>
+                        <div class="container-preguntas">
+                            <h1>Mini Juego - Descubriendo el Patrimonio de Aranjuez</h1>
+                            
+                            <p>¡Bienvenido al juego de preguntas sobre el patrimonio de Aranjuez!</p>
+                            <button onclick="comenzarJuego()" id="playgame">Comenzar Juego</button>
+                            <div id="pregunta"></div>
+                            <div id="respuestas"></div>
+                            <div id="resultado"></div>
+                        </div>
+                </span>
+        </section>
+        <!--Sobre Aran Jones-->
+        <section class="page-section bg-light" id="sobre-aran">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Sobre Aran Jones</h2>
+                    <h3 class="section-subheading text-muted fs-3">Aran Jones, el intrépido joven explorador, despierta la curiosidad de los pequeños aventureros mientras los guía por los tesoros históricos y naturales del Patrimonio Nacional de Aranjuez. Su entusiasmo contagioso y su profundo conocimiento de la región hacen que cada excursión sea una emocionante travesía.</h3>
+                </div>
+                <div class="col-9 row align-items-start " >
+                    <!-- item 1-->
+                    <div class="aran-jones col">
+                    <img class="img-fluid" src="assets/img/aranjones.png" alt="..." width="500" />
+                    </div>
+                    <div class="col sobre-aran">
+                        <ul><strong>Descripción física:</strong>
+                            <ul>
+                                <li>Aran es un joven de mirada avispada, con ojos color avellana que parecen absorber la historia de cada rincón.</li>
+                                <li>Su cabello siempre alborotado por el viento, enmarca su rostro lleno de pecas y sonrisas.</li>
+                                <li>Viste con ropa cómoda y resistente, perfecta para las largas caminatas bajo el sol.</li>
+                                </ul>
+                                <strong>Características:</strong>
+                                <ul>
+                                    <li> Apasionado por la naturaleza: Aran conoce cada árbol, arbusto y flor en los jardines del Palacio Real de Aranjuez. Sus explicaciones sobre la fauna y la flora local son cautivadoras.</li>
+                                    <li> Historiador improvisado: Cuando se adentran en el Palacio Real, Aran relata anécdotas sobre los Reyes españoles que alguna vez habitaron allí. Sus ojos brillan al hablar de intrigas palaciegas y amores prohibidos.</li>
+                                    <li> Amigo de los jóvenes: Aran se agacha para estar a la altura de los pequeños exploradores. Les hace preguntas, escucha sus respuestas y comparte su entusiasmo. Los niños lo adoran.
+                                </ul>
+                                <strong>Aventuras inolvidables:</strong>
+                                <ul>
+                                <li> La búsqueda del tesoro en los jardines: Aran esconde pistas entre los setos y fuentes. Los niños siguen el mapa, descubriendo secretos ocultos y aprendiendo sobre la historia del lugar.</li>
+                                <li> La leyenda del fantasma del Palacio: Aran narra la historia de un antiguo sirviente que aún deambula por los pasillos. Los niños se asombran y se aferran a sus linternas mientras exploran las salas oscuras.
+                                En resumen, Aran Jones es un guía apasionado, un narrador de historias y un amigo para los jóvenes exploradores que descubren la magia de Aranjuez a su lado</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+        </section>
+
+
+        <!-- mapas-->
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="mapa1.jpg" download="mapa1.jpg"><img class="img-fluid mx-auto" src="assets/img/logos/mapa1.png" alt="mapa1" aria-label="mapa1">Descargar</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="mapa2.jpg" download="mapa2.jpg"><img class="img-fluid mx-auto" src="assets/img/logos/mapa2.png" alt="..." aria-label="mapa2" />Descargar</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="mapa3.jpg" download="mapa3.jpg"><img class="img-fluid mx-auto" src="assets/img/logos/mapa3.png" alt="..." aria-label="mapa3" />Descargar</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="mapa4.jpg" download="mapa4.jpg"><img class="img-fluid  mx-auto" src="assets/img/logos/mapa4.png" alt="..." aria-label="mapa4" />Descargar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
@@ -89,186 +212,6 @@
                 </div>
             </div>
         </section>
-        <!--Sobre Aran Jones-->
-        <section class="page-section bg-light" id="sobre-aran">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Sobre Aran Jones</h2>
-                    <h3 class="section-subheading text-muted fs-3">Aran Jones, el intrépido joven explorador, despierta la curiosidad de los pequeños aventureros mientras los guía por los tesoros históricos y naturales del Patrimonio Nacional de Aranjuez. Su entusiasmo contagioso y su profundo conocimiento de la región hacen que cada excursión sea una emocionante travesía.</h3>
-                </div>
-                <div class="col-10 row align-items-start " >
-                    <!-- item 1-->
-                    <div class="aran-jones col">
-                    <img class="img-fluid" src="assets/img/aranjones.png" alt="..." width="500" />
-                    </div>
-                    <div class="col sobre-aran">
-                        <ul><strong>Descripción física:</strong>
-                            <ul>
-                                <li>Aran es un joven de mirada avispada, con ojos color avellana que parecen absorber la historia de cada rincón.</li>
-                                <li>Su cabello siempre alborotado por el viento, enmarca su rostro lleno de pecas y sonrisas.</li>
-                                <li>Viste con ropa cómoda y resistente, perfecta para las largas caminatas bajo el sol.</li>
-                                </ul>
-                                <strong>Características:</strong>
-                                <ul>
-                                    <li> Apasionado por la naturaleza: Aran conoce cada árbol, arbusto y flor en los jardines del Palacio Real de Aranjuez. Sus explicaciones sobre la fauna y la flora local son cautivadoras.</li>
-                                    <li> Historiador improvisado: Cuando se adentran en el Palacio Real, Aran relata anécdotas sobre los Reyes españoles que alguna vez habitaron allí. Sus ojos brillan al hablar de intrigas palaciegas y amores prohibidos.</li>
-                                    <li> Amigo de los jóvenes: Aran se agacha para estar a la altura de los pequeños exploradores. Les hace preguntas, escucha sus respuestas y comparte su entusiasmo. Los niños lo adoran.
-                                </ul>
-                                <strong>Aventuras inolvidables:</strong>
-                                <ul>
-                                <li> La búsqueda del tesoro en los jardines: Aran esconde pistas entre los setos y fuentes. Los niños siguen el mapa, descubriendo secretos ocultos y aprendiendo sobre la historia del lugar.</li>
-                                <li> La leyenda del fantasma del Palacio: Aran narra la historia de un antiguo sirviente que aún deambula por los pasillos. Los niños se asombran y se aferran a sus linternas mientras exploran las salas oscuras.
-                                En resumen, Aran Jones es un guía apasionado, un narrador de historias y un amigo para los jóvenes exploradores que descubren la magia de Aranjuez a su lado</li>
-                                </ul>
-                            </ul>
-                        </div>
-                    </div>
-        </section>
-
-        <!-- En qué comsiste el juego-->
-
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">En qué consiste el juego</h2>
-                    <h3 class="section-subheading text-muted fs-3">Cada aventura de Aran Jones se compone de un mapa del lugar a visitar, un set de pegatinas y una App web muy sencilla de usar donde se plantean retos para los más pequeños de la casa.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Mapa y pegatinas</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!--  item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">App web</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!--  item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Juego</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-preguntas">
-                        <h1>Descubriendo el Patrimonio de Aranjuez</h1>
-                        <p>¡Bienvenido al juego de preguntas sobre el patrimonio de Aranjuez!</p>
-                        <button onclick="comenzarJuego()" id="playgame">Comenzar Juego</button>
-                        <div id="pregunta"></div>
-                        <div id="respuestas"></div>
-                        <div id="resultado"></div>
-                    </div>
-        </section>
-        <!-- mapas-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="mapa1.jpg" download="mapa1.jpg"><img class="img-fluid mx-auto" src="assets/img/logos/mapa1.png" alt="mapa1" aria-label="mapa1">Descargar</a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="mapa2.jpg" download="mapa2.jpg"><img class="img-fluid mx-auto" src="assets/img/logos/mapa2.png" alt="..." aria-label="mapa2" />Descargar</a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="mapa3.jpg" download="mapa3.jpg"><img class="img-fluid mx-auto" src="assets/img/logos/mapa3.png" alt="..." aria-label="mapa3" />Descargar</a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="mapa4.jpg" download="mapa4.jpg"><img class="img-fluid  mx-auto" src="assets/img/logos/mapa4.png" alt="..." aria-label="mapa4" />Descargar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                 * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">-->
-                                <!-- Name input
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">-->
-                                <!-- Email address input
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">-->
-                                <!-- Phone number input
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">-->
-                                <!-- Message input
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>-->
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>-->
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>-->
-                    <!-- Submit Button
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
-            </div>
-        </section>-->
-    
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">

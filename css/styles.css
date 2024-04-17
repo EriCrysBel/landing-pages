@@ -11316,60 +11316,6 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
-section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-section#contact .section-heading {
-  color: #fff;
-}
-section#contact form#contactForm .form-group {
-  margin-bottom: 1.5rem;
-}
-section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
-}
-section#contact form#contactForm .form-group input.form-control {
-  height: auto;
-}
-section#contact form#contactForm .form-group-textarea {
-  height: 100%;
-}
-section#contact form#contactForm .form-group-textarea textarea {
-  height: 100%;
-  min-height: 10rem;
-}
-section#contact form#contactForm p.help-block {
-  margin: 0;
-}
-section#contact form#contactForm .form-control:focus {
-  border-color: #ffc800;
-  box-shadow: none;
-}
-section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm :-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm ::-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm :-ms-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #ced4da;
-}
-
 .footer {
   text-align: center;
   font-size: 0.9rem;
@@ -11382,12 +11328,24 @@ section#contact form#contactForm :-ms-input-placeholder {
 .sobre-aran{
   font-size: 15PX;
 }
+.mini-juego{
+  margin: 70px;
+  display: flex;
+  align-self: center;
+}
+.logotipo{
+  align-self: center;
+}
+.logotipo img{
+  width: 300px;
+}
 .container-preguntas {
-  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #8A4A38;
+  background-color:#A1A1F8;
   width: 100%;
+  text-align: center;
+  align-self: center;
 }
 
 #playgame {
@@ -11396,7 +11354,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff;
   border: none;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 #playgame:hover {
@@ -11405,7 +11363,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #pregunta {
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #respuestas {
@@ -11423,4 +11381,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .respuesta:hover {
   background-color: #e0e0e0;
+}
+
+#reglas-juego{
+  margin-bottom:0!important;
+  padding-bottom: 0!important;
 }
