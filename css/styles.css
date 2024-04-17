@@ -11326,7 +11326,14 @@ header.masthead .masthead-heading {
   cursor: pointer; 
 }
 .sobre-aran{
-  font-size: 15PX;
+  font-size: 20PX;
+  background-color: #E2DCBB;
+  padding: 0.5em;
+}
+.sobre-aran strong{
+background-color: #97E9BB;
+padding: 0.3em;
+text-decoration: underline;
 }
 .mini-juego{
   margin: 70px;
