@@ -22,7 +22,9 @@
   })
 })()
 
-
+window.lazySizesConfig = {
+	addClasses: true
+};
 
 
 

@@ -17,6 +17,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        
     </head>
 
     <body id="page-top">
@@ -106,8 +107,7 @@
                             </div>
                         </div>
                     </div>
-                    <span class="mini-juego" id="juego">
-
+                    <div class="mini-juego" id="juego">
                         <figure class="logotipo">
                             <img src="assets/explorador.png" alt="logotipo" >
                         </figure>
@@ -120,7 +120,7 @@
                             <div id="respuestas"></div>
                             <div id="resultado"></div>
                         </div>
-                </span>
+                    </div>
         </section>
         <!--Sobre Aran Jones-->
         <section class="page-section bg-light sobre-aran" id="sobre-aran">
@@ -132,27 +132,38 @@
                 <div class="col-12 row align-items-center fotos " >
                     <!-- item 1-->
                     <div class="aran-jones col">
-                    <img class="img-fluid" src="assets/img/aranjones.png" alt="..." width="500" />
-                    <img class="img-fluid" src="assets/img/jardinaran.png" alt="..." width="500"/>
+                        <div class="teaser" data-expand="-110">
+
+                    <img 
+                    class="img-fluid 
+                    lazyload" 
+                    src="progress-loading-bar-buffering-download-upload-and-loading-icon-vector.jpg" 
+                    alt="..." 
+                    width="500"  data-src="assets/img/aranjones.png"/>
+                    <img 
+                    class="lazyload" 
+                    alt="..." 
+                    width="500" 
+                    data-src="assets/img/jardinaran.png" 
+                    src="progress-loading-bar-buffering-download-upload-and-loading-icon-vector.jpg"/>
+                        </div>
                     </div>
                     <div class="col">
                         <ul><strong>Descripción física:</strong>
-                            <ul>
-                                <li>Aran es un joven de mirada avispada, con ojos color avellana que parecen absorber la historia de cada rincón.</li>
-                                <li>Su cabello siempre alborotado por el viento, enmarca su rostro lleno de pecas y sonrisas.</li>
+                            <ul><br>
+                                <li>Aran tiene unos ojos color avellana que parecen absorber la historia de cada rincón.</li><br>
                                 <li>Viste con ropa cómoda y resistente, perfecta para las largas caminatas bajo el sol.</li>
-                                </ul>
+                                </ul><br>
                                 <strong>Características:</strong>
-                                <ul>
-                                    <li> Apasionado por la naturaleza: Aran conoce cada árbol, arbusto y flor en los jardines del Palacio Real de Aranjuez. Sus explicaciones sobre la fauna y la flora local son cautivadoras.</li>
-                                    <li> Historiador improvisado: Cuando se adentran en el Palacio Real, Aran relata anécdotas sobre los Reyes españoles que alguna vez habitaron allí. Sus ojos brillan al hablar de intrigas palaciegas y amores prohibidos.</li>
-                                    <li> Amigo de los jóvenes: Aran se agacha para estar a la altura de los pequeños exploradores. Les hace preguntas, escucha sus respuestas y comparte su entusiasmo. Los niños lo adoran.
-                                </ul>
+                                <ul><br>
+                                    <li> Apasionado por la naturaleza: Aran conoce cada planta del Palacio Real de Aranjuez.</li><br>
+                                    <li> Historiador improvisado: relata anécdotas sobre los Reyes españoles que alguna vez habitaron allí.</li><br>
+                                    <li> Amigo de los jóvenes: Aran motiva a los pequeños exploradores. Les hace preguntas, escucha sus respuestas y comparte su entusiasmo.
+                                </ul><br>
                                 <strong>Aventuras inolvidables:</strong>
-                                <ul>
-                                <li> La búsqueda del tesoro en los jardines: Aran esconde pistas entre los setos y fuentes. Los niños siguen el mapa, descubriendo secretos ocultos y aprendiendo sobre la historia del lugar.</li>
-                                <li> La leyenda del fantasma del Palacio: Aran narra la historia de un antiguo sirviente que aún deambula por los pasillos. Los niños se asombran y se aferran a sus linternas mientras exploran las salas oscuras.
-                                En resumen, Aran Jones es un guía apasionado, un narrador de historias y un amigo para los jóvenes exploradores que descubren la magia de Aranjuez a su lado</li>
+                                <ul><br>
+                                <li> La búsqueda del tesoro en los jardines: Aran esconde pistas entre los setos y fuentes. Los niños siguen el mapa, descubriendo secretos ocultos y aprendiendo sobre la historia del lugar.</li><br>
+                                <li> La leyenda del fantasma del Palacio: Aran narra la historia de un antiguo sirviente que aún deambula por los pasillos. Los niños se asombran y se aferran a sus linternas mientras exploran las salas oscuras.</li>
                                 </ul>
                             </ul>
                         </div>
@@ -225,15 +236,15 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; EriCrysBel 2023</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                        <a class="link-dark text-decoration-none me-3" href="#!">Pólitica de privacidad</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terminos de uso</a>
                     </div>
                 </div>
             </div>
@@ -320,11 +331,14 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-
+        <script src="./node_modules/lazysizes/lazysizes.min.js" async=""></script>
+        
+        
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        <script src="js/scripts.js"></script>
     </body>
 </html>
