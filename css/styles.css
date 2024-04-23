@@ -11475,7 +11475,8 @@ flip card
 */
 .cartitas{
   justify-self: center;
- margin-bottom: 15em;
+ margin-bottom: 20em;
+ margin-left: auto;
 }
 .card-flip > div {
   backface-visibility: hidden;
