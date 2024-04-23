@@ -11470,6 +11470,8 @@ text-decoration: underline;
   font-size: 18px;
   text-align: center;
 }
+
+
 /*
 flip card
 */
@@ -11505,11 +11507,8 @@ flip card
 .card-flip:hover .card-back {
   transform: rotateY(0deg);
 }
-.container{
-  transform-style: preserve-3d;
-}
 
-.container .box{
+.cartitas .box{
   position: relative;
   width: 400px;
   height: 400px;
@@ -11519,7 +11518,7 @@ flip card
   cursor: pointer;
 }
 
-.container .box .body{
+.cartitas .box .body{
   position: absolute;
   top: 0;
   left: 0;
@@ -11531,7 +11530,7 @@ flip card
 
 
 
-.container .box .body .imgContainer{
+.cartitas .box .body .imgContainer{
   position: absolute;
   top: 0;
   left: 0;
@@ -11540,7 +11539,7 @@ flip card
   transform-style: preserve-3d;
 }
 
-.container .box .body .imgContainer img{
+.cartitas .box .body .imgContainer img{
   position: absolute;
   top: 0;
   left: 0;
@@ -11549,7 +11548,7 @@ flip card
   object-fit: cover;
 }
 
-.container .box .body .content{
+.cartitas .box .body .content{
   position: absolute;
   top: 0;
   left: 0;
@@ -11561,17 +11560,17 @@ flip card
   transform: rotateY(180deg);
 }
 
-.container .box:hover .body{
+.cartitas .box:hover .body{
   transform: rotateY(180deg);
 }
 
-.container .box .body .content div{
+.cartitas .box .body .content div{
   transform-style: preserve-3d;
   padding: 20px;
   background: linear-gradient(45deg, #FE0061,#FFEB3B);
   transform: translateZ(100px);
 }
 
-.container .box .body .content div h3{
+.cartitas .box .body .content div h3{
   letter-spacing: 1px;
 }
