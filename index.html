@@ -79,8 +79,8 @@
 
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">En qué consiste el juego</h2>
-                    <h3 class="section-subheading text-muted fs-3">Cada aventura de Aran Jones se compone de un mapa del lugar a visitar, un set de pegatinas y una App web muy sencilla de usar donde se plantean retos para los más pequeños de la casa.</h3>
+                    <h2 class="section-heading text-uppercase">Aprende jugando</h2>
+                    <h3 class="section-subheading text-muted fs-3">Cada aventura de Aran Jones se compone de un mapa del lugar a visitar, un set de pegatinas y una App web muy sencilla de usar donde se plantean retos para los más pequeños de la casa, así como juegos de preguntas y respuestas.</h3>
                 </div>
                     <div class="mini-juego" id="juego">
                         <figure class="logotipo">
@@ -91,13 +91,14 @@
                             src="cargando.png" >
                         </figure>
                         <div class="container-preguntas">
-                            <h1>Mini Juego - Descubriendo el Patrimonio de Aranjuez</h1>
-                            
-                            <p>¡Bienvenido al juego de preguntas sobre el patrimonio de Aranjuez!</p>
-                            <button onclick="comenzarJuego()" id="playgame">Comenzar Juego</button>
-                            <div id="pregunta"></div>
-                            <div id="respuestas"></div>
-                            <div id="resultado"></div>
+                            <h1>¡Bienvenido al juego de preguntas sobre el patrimonio de Aranjuez!</h1>
+                <div class="container"> 
+                <div class="btn">
+            <div class="dot"></div>
+            <a href="https://ericrysbel.github.io/quiz-game/index2.html">QUIZ GAME</a>
+                </div>
+                <h1 class="juega">&#x261D; CLICK AQUÍ &#x261D;</h1>
+                </div>
                         </div>
                     </div>
                     </div>
@@ -107,7 +108,7 @@
     <div class="card card-flip" style="width: 30rem;">
         <div class="card-front text-black bg-white">
         <div class="card-body ">
-            <img class="img-fluid lazyload" data-src="assets/img/portfolio/1.jpg" src="cargando.png" alt="Mapa" >
+            <img class="img-fluid lazyload" data-src="assets/img/portfolio/1.jpg" src="cargando.png" alt="Mapa" id="foto1" >
             <h3 class="card-title">Mapa y pegatinas</h3>
         </div>
     </div>
@@ -142,13 +143,13 @@
         <div class="card-front text-black bg-white">
         <div class="card-body ">
             <img class="img-fluid lazyload" data-src="assets/img/portfolio/3.jpg" src="cargando.png" alt="app juego" >
-            <h3 class="card-title">Juego</h3>
+            <h3 class="card-title ">Juego</h3>
         </div>
     </div>
     <div class="card-back bg-white">
         <div class="card-body">
             <h5 class="card-title">La búsqueda del tesoro</h5>
-            <p class="card-text">
+            <p class="card-text start">
                 Una vez introducido el código empieza el juego, nuestros personajes acompañan y guían por el recorrido a los participantes.</p>
 
             </div>
@@ -160,22 +161,26 @@
         </section>
         <!--Sobre Aran Jones-->
         <section class="page-section bg-light sobre-aran" id="sobre-aran">
-            <div class="container">
-                <div class="text-center">
+            <div class="container ">
+                <div class="text-center paisaje">
                     <h2 class="section-heading text-uppercase">Sobre Aran Jones</h2>
                     <h3 class="section-subheading text-muted fs-3">Aran Jones, el intrépido joven explorador, despierta la curiosidad de los pequeños aventureros mientras los guía por los tesoros históricos y naturales del Patrimonio Nacional de Aranjuez. Su entusiasmo contagioso y su profundo conocimiento de la región hacen que cada excursión sea una emocionante travesía.</h3>
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
                 </div>
                 <div class="col-12 row align-items-center fotos " >
                     <!-- item 1-->
                     <div class="aran-jones col">
                         <div class="teaser" data-expand="-110">
-
+                    
                     <img 
-                    class="img-fluid 
-                    lazyload" 
-                    src="cargando.png" 
+                    class="img-fluid" 
+                    src="assets/img/aran2.png" 
                     alt="Aran Jones en el palacio" 
-                    width="500"  data-src="assets/img/aranjones.png"/>
+                    id="fotoA"
+                    width="500"/>
                     <img 
                     class="lazyload" 
                     alt="..." 
@@ -183,6 +188,7 @@
                     data-src="assets/img/jardinaran.png" 
                     src="cargando.png"/>
                         </div>
+
                     </div>
                     <div class="col">
                         <ul><strong>Descripción física:</strong>
@@ -204,6 +210,7 @@
                             </ul>
                         </div>
                     </div>
+
         </section>
 
 
@@ -259,7 +266,7 @@
                       </div>
                 </div>
             </div>
-            
+
         </section>
                 
 

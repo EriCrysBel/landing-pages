@@ -216,3 +216,41 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+window.onload = function() {
+  // Obtener la posición del elemento en la página
+  let divA = document.getElementById("sobre-aran")
+  let divAPos = divA.offsetTop;
+
+  // Función para cambiar la imagen cuando se hace scroll hacia abajo
+  window.onscroll = function() {
+    changeImageOnScroll(divAPos);
+  };
+};
+
+function changeImageOnScroll(elementOffset) {
+  let fotoA = document.getElementById("fotoA");
+  let scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+
+  // Si el desplazamiento alcanza o supera la posición del elemento
+  if (scrollPosition >= elementOffset) {
+    // Calcular la posición relativa al elemento
+    let relativeScroll = scrollPosition - elementOffset;
+
+    // Cambiar la imagen basada en la posición relativa
+    if (relativeScroll < 100) {
+      fotoA.setAttribute("src", "./assets/img/aran2.png");
+    } else if (relativeScroll < 150) {
+      fotoA.setAttribute("src", "./assets/img/aran2-5.png");
+    } else if (relativeScroll < 200) {
+      fotoA.setAttribute("src", "./assets/img/aran3.png");
+    }else if (relativeScroll < 250) {
+      fotoA.setAttribute("src", "./assets/img/aran3-5.png");
+    }else if (relativeScroll < 300) {
+      fotoA.setAttribute("src", "./assets/img/aran4.png");
+    }
+  } else {
+    // Restablecer la imagen original si el desplazamiento está por debajo de la posición del elemento
+    fotoA.setAttribute("src", "./assets/img/aran2.png");
+  }
+}
