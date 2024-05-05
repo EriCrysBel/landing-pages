@@ -11353,11 +11353,21 @@ text-decoration: underline;
 .container-preguntas {
   margin: 0 auto;
   padding: 20px;
-  background-color:#A1A1F8;
   width: 100%;
   text-align: center;
   align-self: center;
   margin-bottom: 0;
+  animation: rebote 1s infinite;
+   
+}
+.container-preguntas A {
+  border-radius:40% ;
+  background-color:#A1A1F8;
+  padding: 2em;
+  font-size: 40PX;
+  text-shadow: gray 6px 3px 3px;
+  box-shadow: gray 6px 3px 3px;
+  
 }
 
 #playgame {
